@@ -162,8 +162,8 @@
     ],
     "habitatHome": {
         "id": "habitatHome",
-        "install": false,
-        "version": "9.1.0.0",
+        "install": true,
+        "version": "9.1.0.2",
         "prerelease": true,
         "modules": [
             {
@@ -171,7 +171,7 @@
                 "name": "Habitat Home",
                 "fileName": "HabitatHome_single.scwdp.zip",
                 "url": "https://github.com/Sitecore/Sitecore.HabitatHome.Platform/releases/download/{version}/HabitatHome_single.scwdp.zip",
-                "install": false,
+                "install": true,
                 "convert": false,
                 "source": "external"
             },
@@ -180,7 +180,7 @@
                 "name": "Habitat Home xConnect",
                 "fileName": "HabitatHome_xConnect_single.scwdp.zip",
                 "url": "https://github.com/Sitecore/Sitecore.HabitatHome.Platform/releases/download/{version}/HabitatHome_xConnect_single.scwdp.zip",
-                "install": false,
+                "install": true,
                 "convert": false,
                 "source": "external"
             }

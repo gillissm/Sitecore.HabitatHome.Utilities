@@ -144,7 +144,7 @@ Function Install-Modules {
         SiteName                        = $site.hostName
         WebRoot                         = $site.webRoot
         XConnectSiteName                = $xConnect.siteName
-        SqlServer                       = $sql.server
+        SqlServer                       = "(local)\LOCALSQL2017" #" $sql.server"
         SqlAdminUser                    = $sql.adminUser 
         SqlAdminPassword                = $sql.adminPassword
         DatabasePrefix                  = $site.prefix
